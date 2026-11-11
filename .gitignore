@@ -1,0 +1,19 @@
+# Local datasets and transient, potentially source-bearing records.
+/data/raw/**
+/data/intermediate/**
+# Keep generated results under outputs/runs/.
+/outputs/runs/**
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/

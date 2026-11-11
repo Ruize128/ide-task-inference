@@ -1,0 +1,6 @@
+{
+  "raw_data": "data/raw/Events-170301-2",
+  "intermediate": "data/intermediate",
+  "generated_outputs": "outputs/runs",
+  "paper_reference": "outputs/reference"
+}

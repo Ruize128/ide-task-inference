@@ -1,0 +1,189 @@
+{
+  "schema_version": "task_classifier_v4::task_taxonomy_v4_16_subtasks::full_data_8321_sessions_24_clusters_length_invariant_2026-07-03",
+  "task_families": [
+    "Code Modification",
+    "Code Understanding / Investigation",
+    "Project Maintenance / Version Control",
+    "Runtime Feedback",
+    "Workspace / Context Management"
+  ],
+  "subtasks": [
+    "Build Feedback / Diagnostics",
+    "Command-Assisted Editing",
+    "Command-Driven Debug Interaction",
+    "Completion-Assisted Editing",
+    "Context / File Navigation",
+    "Debug-Edit-Navigate Runtime Investigation",
+    "Debug-Guided Edit Repair",
+    "Edit-Completion-Navigation Refinement",
+    "General IDE Tool / Command Operation",
+    "Runtime-Aware Investigation",
+    "Search / Query Investigation",
+    "Symbol / Usage Investigation",
+    "Test-Code Editing / Refinement",
+    "Tight Debugger Interaction",
+    "VCS Inspection / Sync Maintenance",
+    "Workspace-Assisted Editing / Context Switching"
+  ],
+  "subtask_to_family": {
+    "VCS Inspection / Sync Maintenance": "Project Maintenance / Version Control",
+    "Completion-Assisted Editing": "Code Modification",
+    "Edit-Completion-Navigation Refinement": "Code Modification",
+    "Command-Assisted Editing": "Code Modification",
+    "Debug-Guided Edit Repair": "Code Modification",
+    "Test-Code Editing / Refinement": "Code Modification",
+    "Workspace-Assisted Editing / Context Switching": "Workspace / Context Management",
+    "Search / Query Investigation": "Code Understanding / Investigation",
+    "Build Feedback / Diagnostics": "Runtime Feedback",
+    "Runtime-Aware Investigation": "Code Understanding / Investigation",
+    "Command-Driven Debug Interaction": "Workspace / Context Management",
+    "Debug-Edit-Navigate Runtime Investigation": "Runtime Feedback",
+    "Tight Debugger Interaction": "Runtime Feedback",
+    "General IDE Tool / Command Operation": "Workspace / Context Management",
+    "Context / File Navigation": "Code Understanding / Investigation",
+    "Symbol / Usage Investigation": "Code Understanding / Investigation"
+  },
+  "cluster_to_task": {
+    "0": {
+      "task_family": "Project Maintenance / Version Control",
+      "subtask": "VCS Inspection / Sync Maintenance",
+      "description": "VCS_ACTIVITY-dominant status or change-list inspection, typically closing with a sync; this run shows one combined VCS behavior group."
+    },
+    "1": {
+      "task_family": "Code Modification",
+      "subtask": "Completion-Assisted Editing",
+      "description": "Strong CODE_COMPLETION and EDIT_BURST alternation; active code writing with frequent completion support."
+    },
+    "2": {
+      "task_family": "Code Modification",
+      "subtask": "Edit-Completion-Navigation Refinement",
+      "description": "Repeated interaction among edit, completion, and navigation; iterative refinement across nearby locations or related symbols."
+    },
+    "3": {
+      "task_family": "Code Modification",
+      "subtask": "Command-Assisted Editing",
+      "description": "Edit-heavy traces with strong IDE-command participation."
+    },
+    "4": {
+      "task_family": "Code Modification",
+      "subtask": "Debug-Guided Edit Repair",
+      "description": "EDIT_BURST and DEBUG_SESSION repeatedly interact; code changes driven by runtime/debug feedback."
+    },
+    "5": {
+      "task_family": "Code Modification",
+      "subtask": "Test-Code Editing / Refinement",
+      "description": "Edit/navigation/completion loops distinguished by test-file context (file_role=test); writing or maintaining test code."
+    },
+    "6": {
+      "task_family": "Code Modification",
+      "subtask": "Command-Assisted Editing",
+      "description": "Edit-heavy traces with strong IDE-command participation."
+    },
+    "7": {
+      "task_family": "Workspace / Context Management",
+      "subtask": "Workspace-Assisted Editing / Context Switching",
+      "description": "IDE commands alternate with edit/completion/navigation; workspace operations supporting active coding or context switching."
+    },
+    "8": {
+      "task_family": "Code Modification",
+      "subtask": "Test-Code Editing / Refinement",
+      "description": "Edit/navigation/completion loops distinguished by test-file context (file_role=test); writing or maintaining test code."
+    },
+    "9": {
+      "task_family": "Code Modification",
+      "subtask": "Edit-Completion-Navigation Refinement",
+      "description": "Repeated interaction among edit, completion, and navigation; iterative refinement across nearby locations or related symbols."
+    },
+    "10": {
+      "task_family": "Code Understanding / Investigation",
+      "subtask": "Search / Query Investigation",
+      "description": "SEARCH_SESSION-centered investigation with navigation and IDE-command support; querying the codebase rather than following references."
+    },
+    "11": {
+      "task_family": "Runtime Feedback",
+      "subtask": "Build Feedback / Diagnostics",
+      "description": "BUILD-centered feedback connected to navigation, edit, and IDE-command activity."
+    },
+    "12": {
+      "task_family": "Code Understanding / Investigation",
+      "subtask": "Runtime-Aware Investigation",
+      "description": "Navigation-dominant investigation where debugger/runtime activity is a major part of the trace."
+    },
+    "13": {
+      "task_family": "Workspace / Context Management",
+      "subtask": "Command-Driven Debug Interaction",
+      "description": "IDE-command and debug activity tightly connected; command-driven interaction with a running debug session rather than direct code repair."
+    },
+    "14": {
+      "task_family": "Runtime Feedback",
+      "subtask": "Debug-Edit-Navigate Runtime Investigation",
+      "description": "Broad loop among debugging, editing, and navigation; runtime investigation and repair cycles."
+    },
+    "15": {
+      "task_family": "Code Modification",
+      "subtask": "Debug-Guided Edit Repair",
+      "description": "EDIT_BURST and DEBUG_SESSION repeatedly interact; code changes driven by runtime/debug feedback."
+    },
+    "16": {
+      "task_family": "Runtime Feedback",
+      "subtask": "Tight Debugger Interaction",
+      "description": "Repeated DEBUG_SESSION activity with IDE-command control; stepping, inspecting, or controlling debugger state."
+    },
+    "17": {
+      "task_family": "Workspace / Context Management",
+      "subtask": "Workspace-Assisted Editing / Context Switching",
+      "description": "IDE commands alternate with edit/completion/navigation; workspace operations supporting active coding or context switching."
+    },
+    "18": {
+      "task_family": "Workspace / Context Management",
+      "subtask": "General IDE Tool / Command Operation",
+      "description": "IDE-command and navigation loops with little direct editing; IDE tools, panels, or command-driven workspace movement."
+    },
+    "19": {
+      "task_family": "Workspace / Context Management",
+      "subtask": "General IDE Tool / Command Operation",
+      "description": "IDE-command and navigation loops with little direct editing; IDE tools, panels, or command-driven workspace movement."
+    },
+    "20": {
+      "task_family": "Workspace / Context Management",
+      "subtask": "Workspace-Assisted Editing / Context Switching",
+      "description": "IDE commands alternate with edit/completion/navigation; workspace operations supporting active coding or context switching."
+    },
+    "21": {
+      "task_family": "Code Modification",
+      "subtask": "Test-Code Editing / Refinement",
+      "description": "Edit/navigation/completion loops distinguished by test-file context (file_role=test); writing or maintaining test code."
+    },
+    "22": {
+      "task_family": "Code Understanding / Investigation",
+      "subtask": "Context / File Navigation",
+      "description": "Short or medium NAVIGATION_BURST and IDE-command loops with little editing; moving through files, views, or nearby code context."
+    },
+    "23": {
+      "task_family": "Code Understanding / Investigation",
+      "subtask": "Symbol / Usage Investigation",
+      "description": "Navigation-dominant traces with find-usages-like symbol/context signals plus some edit/completion support."
+    }
+  },
+  "default_confidence_threshold": 0.45,
+  "subtask_confidence_thresholds": {
+    "Build Feedback / Diagnostics": 0.3,
+    "Command-Assisted Editing": 0.3,
+    "Command-Driven Debug Interaction": 0.3,
+    "Completion-Assisted Editing": 0.9,
+    "Context / File Navigation": 0.8,
+    "Debug-Edit-Navigate Runtime Investigation": 0.7,
+    "Debug-Guided Edit Repair": 0.3,
+    "Edit-Completion-Navigation Refinement": 0.3,
+    "General IDE Tool / Command Operation": 0.4,
+    "Runtime-Aware Investigation": 0.3,
+    "Search / Query Investigation": 0.3,
+    "Symbol / Usage Investigation": 0.7,
+    "Test-Code Editing / Refinement": 0.3,
+    "Tight Debugger Interaction": 0.75,
+    "VCS Inspection / Sync Maintenance": 0.3,
+    "Workspace-Assisted Editing / Context Switching": 0.7
+  },
+  "family_fallback_threshold": 0.6,
+  "per_class_precision_target": 0.8
+}
